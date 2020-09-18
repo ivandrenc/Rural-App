@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC145123247C34650016E716 /* DatosPersonales.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC145122247C34650016E716 /* DatosPersonales.swift */; };
+		AC145125247D24030016E716 /* RandomNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC145124247D24030016E716 /* RandomNumberViewController.swift */; };
+		AC18B69E247EB67300F682E9 /* AgendarCitaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B69D247EB67300F682E9 /* AgendarCitaViewController.swift */; };
+		AC57EA132514B33800D1CCE8 /* hospitales.csv in Resources */ = {isa = PBXBuildFile; fileRef = AC57EA122514B33700D1CCE8 /* hospitales.csv */; };
+		AC958DDD247D490900F45D4F /* CuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC958DDC247D490900F45D4F /* CuentaViewController.swift */; };
+		AC958DE2247D6D5600F45D4F /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = AC958DE1247D6D5600F45D4F /* SwiftCSV */; };
+		AC958DE8247D943500F45D4F /* HospitalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC958DE7247D943500F45D4F /* HospitalesViewController.swift */; };
+		AC958DEA247D9DE700F45D4F /* CiudadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC958DE9247D9DE700F45D4F /* CiudadViewController.swift */; };
+		ACA05E27247A86C200E3808E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA05E26247A86C200E3808E /* AppDelegate.swift */; };
+		ACA05E29247A86C200E3808E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA05E28247A86C200E3808E /* SceneDelegate.swift */; };
+		ACA05E2B247A86C200E3808E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA05E2A247A86C200E3808E /* LoginViewController.swift */; };
+		ACA05E2E247A86C200E3808E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA05E2C247A86C200E3808E /* Main.storyboard */; };
+		ACA05E30247A86C500E3808E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA05E2F247A86C500E3808E /* Assets.xcassets */; };
+		ACA05E33247A86C500E3808E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA05E31247A86C500E3808E /* LaunchScreen.storyboard */; };
+		ACA05E3F247BFED500E3808E /* RegistrateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA05E3E247BFED500E3808E /* RegistrateViewController.swift */; };
+		ACFA59C4247EE3C600A90FB3 /* database.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA59C3247EE3C600A90FB3 /* database.swift */; };
+		ACFA59C8247EF7A800A90FB3 /* CitaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA59C7247EF7A800A90FB3 /* CitaViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC145122247C34650016E716 /* DatosPersonales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosPersonales.swift; sourceTree = "<group>"; };
+		AC145124247D24030016E716 /* RandomNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberViewController.swift; sourceTree = "<group>"; };
+		AC18B69D247EB67300F682E9 /* AgendarCitaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendarCitaViewController.swift; sourceTree = "<group>"; };
+		AC57EA122514B33700D1CCE8 /* hospitales.csv */ = {isa = PBXFileReference; lastKnownFileType = file; path = hospitales.csv; sourceTree = SOURCE_ROOT; };
+		AC958DDC247D490900F45D4F /* CuentaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaViewController.swift; sourceTree = "<group>"; };
+		AC958DE7247D943500F45D4F /* HospitalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalesViewController.swift; sourceTree = "<group>"; };
+		AC958DE9247D9DE700F45D4F /* CiudadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiudadViewController.swift; sourceTree = "<group>"; };
+		ACA05E23247A86C200E3808E /* Rural.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rural.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA05E26247A86C200E3808E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACA05E28247A86C200E3808E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACA05E2A247A86C200E3808E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ACA05E2D247A86C200E3808E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACA05E2F247A86C500E3808E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACA05E32247A86C500E3808E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACA05E34247A86C500E3808E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA05E3E247BFED500E3808E /* RegistrateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrateViewController.swift; sourceTree = "<group>"; };
+		ACFA59C3247EE3C600A90FB3 /* database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = database.swift; sourceTree = "<group>"; };
+		ACFA59C7247EF7A800A90FB3 /* CitaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitaViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACA05E20247A86C200E3808E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC958DE2247D6D5600F45D4F /* SwiftCSV in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACA05E1A247A86C200E3808E = {
+			isa = PBXGroup;
+			children = (
+				ACA05E25247A86C200E3808E /* Rural */,
+				ACA05E24247A86C200E3808E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA05E24247A86C200E3808E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA05E23247A86C200E3808E /* Rural.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA05E25247A86C200E3808E /* Rural */ = {
+			isa = PBXGroup;
+			children = (
+				ACA05E26247A86C200E3808E /* AppDelegate.swift */,
+				ACA05E28247A86C200E3808E /* SceneDelegate.swift */,
+				ACA05E2A247A86C200E3808E /* LoginViewController.swift */,
+				ACA05E3E247BFED500E3808E /* RegistrateViewController.swift */,
+				AC145124247D24030016E716 /* RandomNumberViewController.swift */,
+				AC958DDC247D490900F45D4F /* CuentaViewController.swift */,
+				AC958DE9247D9DE700F45D4F /* CiudadViewController.swift */,
+				AC958DE7247D943500F45D4F /* HospitalesViewController.swift */,
+				AC18B69D247EB67300F682E9 /* AgendarCitaViewController.swift */,
+				ACFA59C7247EF7A800A90FB3 /* CitaViewController.swift */,
+				ACA05E2C247A86C200E3808E /* Main.storyboard */,
+				ACFA59C3247EE3C600A90FB3 /* database.swift */,
+				AC145122247C34650016E716 /* DatosPersonales.swift */,
+				ACA05E2F247A86C500E3808E /* Assets.xcassets */,
+				ACA05E31247A86C500E3808E /* LaunchScreen.storyboard */,
+				ACA05E34247A86C500E3808E /* Info.plist */,
+				AC57EA122514B33700D1CCE8 /* hospitales.csv */,
+			);
+			path = Rural;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACA05E22247A86C200E3808E /* Rural */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA05E37247A86C500E3808E /* Build configuration list for PBXNativeTarget "Rural" */;
+			buildPhases = (
+				ACA05E1F247A86C200E3808E /* Sources */,
+				ACA05E20247A86C200E3808E /* Frameworks */,
+				ACA05E21247A86C200E3808E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rural;
+			packageProductDependencies = (
+				AC958DE1247D6D5600F45D4F /* SwiftCSV */,
+			);
+			productName = Rural;
+			productReference = ACA05E23247A86C200E3808E /* Rural.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACA05E1B247A86C200E3808E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ivan Naranjo";
+				TargetAttributes = {
+					ACA05E22247A86C200E3808E = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = ACA05E1E247A86C200E3808E /* Build configuration list for PBXProject "Rural" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACA05E1A247A86C200E3808E;
+			packageReferences = (
+				AC958DE0247D6D5600F45D4F /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+			);
+			productRefGroup = ACA05E24247A86C200E3808E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA05E22247A86C200E3808E /* Rural */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACA05E21247A86C200E3808E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC57EA132514B33800D1CCE8 /* hospitales.csv in Resources */,
+				ACA05E33247A86C500E3808E /* LaunchScreen.storyboard in Resources */,
+				ACA05E30247A86C500E3808E /* Assets.xcassets in Resources */,
+				ACA05E2E247A86C200E3808E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACA05E1F247A86C200E3808E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA05E2B247A86C200E3808E /* LoginViewController.swift in Sources */,
+				AC958DE8247D943500F45D4F /* HospitalesViewController.swift in Sources */,
+				AC958DEA247D9DE700F45D4F /* CiudadViewController.swift in Sources */,
+				ACFA59C4247EE3C600A90FB3 /* database.swift in Sources */,
+				ACA05E27247A86C200E3808E /* AppDelegate.swift in Sources */,
+				ACA05E3F247BFED500E3808E /* RegistrateViewController.swift in Sources */,
+				AC958DDD247D490900F45D4F /* CuentaViewController.swift in Sources */,
+				ACFA59C8247EF7A800A90FB3 /* CitaViewController.swift in Sources */,
+				AC18B69E247EB67300F682E9 /* AgendarCitaViewController.swift in Sources */,
+				AC145123247C34650016E716 /* DatosPersonales.swift in Sources */,
+				AC145125247D24030016E716 /* RandomNumberViewController.swift in Sources */,
+				ACA05E29247A86C200E3808E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACA05E2C247A86C200E3808E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA05E2D247A86C200E3808E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACA05E31247A86C500E3808E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA05E32247A86C500E3808E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACA05E35247A86C500E3808E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACA05E36247A86C500E3808E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACA05E38247A86C500E3808E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83FW3L84P3;
+				INFOPLIST_FILE = Rural/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-ivandrenc.Rural";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACA05E39247A86C500E3808E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83FW3L84P3;
+				INFOPLIST_FILE = Rural/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-ivandrenc.Rural";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACA05E1E247A86C200E3808E /* Build configuration list for PBXProject "Rural" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA05E35247A86C500E3808E /* Debug */,
+				ACA05E36247A86C500E3808E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA05E37247A86C500E3808E /* Build configuration list for PBXNativeTarget "Rural" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA05E38247A86C500E3808E /* Debug */,
+				ACA05E39247A86C500E3808E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC958DE0247D6D5600F45D4F /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC958DE1247D6D5600F45D4F /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC958DE0247D6D5600F45D4F /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ACA05E1B247A86C200E3808E /* Project object */;
+}
